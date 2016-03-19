@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        #wrapper{
+          background-color: #EAEAEA;
+          margin: auto;
+          width: 980px;
+        }
+
+        .title{
+          border-bottom: 1px solid #333333;
+          font-size: 3.6rem;
+          margin-bottom: 5px;
+        }
+      </style>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" href="apple-touch-icon.png">
+      <link rel="stylesheet" href="main.css">
+      <script src="main.js" type="text/javascript"></script>
+      <title>Cagdas Yonder Assets Kit</title>
+    </head>
+    <body>
+      <div id="wrapper">
+        <div class="title">Heading
+          <a id="displayHeading" href="javascript:toggleHeading();">show</a>
+        </div>
+        <div id="toggleHeading" style="display: none;">
+          <h1>Heading</h1>
+          <h2>Heading</h2>
+          <h3>Heading</h3>
+          <h4>Heading</h4>
+          <h5>Heading</h5>
+          <h6>Heading</h6>
+        </div>
+        <div class="title">Typography
+          <a id="displayTypography" href="javascript:toggleTypography();">show</a>
+        </div>
+        <div id="toggleTypography" style="display: none;">
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
+          felis ultrices, <u>pretium mi sit amet, viverra lectus. Interdum et
+          malesuada fames ac ante ipsum primis in faucibus. In ultrices varius
+          nisi ut faucibus.</u> Integer vehicula eros ac lorem tempor, at
+          blandit metus elementum. <strong>Praesent malesuada rutrum dolor, et
+          porta diam sollicitudin et. Morbi et luctus ex. Nulla mattis ornare
+          lectus. Maecenas pretium vitae <u>neque consectetur consequat. Phasellus
+          felis quam, dictum sit amet risus vitae, vulputate auctor enim. Proin
+          vel mauris quis ex</u> rutrum viverra.</strong> Nulla scelerisque
+          ultricies eros. Integer dui mi, sodales sit amet risus euismod,
+          suscipit porttitor elit. Proin ut elit quam.
+          </p>
+          <p>
+          Sed aliquet aliquet diam, ut semper sapien dapibus vel. Nulla tortor
+          justo, <strong>semper a lorem mattis, dictum semper odio. Proin ut nisi
+          eleifend, porttitor erat sed, gravida magna. Curabitur sit amet
+          congue tortor. Curabitur at diam quam. Proin ultrices leo mauris,
+          vitae ultrices purus elementum a. <em>Nulla iaculis, eros eget maximus
+          volutpat, ligula dui ultrices mauris, id ultrices enim ex ut neque.
+          Proin sollicitudin purus id massa</em></strong> suscipit, at malesuada
+          urna bibendum. Ut et sem gravida lorem feugiat sollicitudin.
+          Etiam convallis urna ut odio mollis sollicitudin. Sed faucibus luctus
+          nisi vel bibendum. Ut quis dolor molestie, efficitur leo at, posuere
+          sapien. <em>In vitae sodales augue. Quisque turpis turpis, ultricies eget
+          tincidunt</em> non, tincidunt vitae dolor.
+          </p>
+          <p>
+          Praesent feugiat lacus id vehicula fermentum. Sed finibus odio sed
+          venenatis lacinia. Nulla in dolor odio. Duis elit felis, pretium ac
+          libero sit amet, pulvinar porta eros. Donec dolor sem, imperdiet
+          vitae dolor eget, hendrerit rutrum elit. Fusce molestie nibh in odio
+          dignissim, a ultrices orci iaculis. Vestibulum sed nisi orci.
+          </p>
+        </div>
+
+        <div class="title">List
+          <a id="displayTypography" href="javascript:toggleList();">show</a>
+        </div>
+        <div id="toggleList" style="display: none;">
+          <div style="width: 50%; background: #A8FF96;" class="left">
+            <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <ul>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+              </ul>
+              <li>Item 3</li>
+            </ul>
+          </div>
+          <div style="width: 50%; background: #FF937A;" class="right">
+            <ol>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <ol>
+                <li>Item 2.1</li>
+                <li>Item 2.2</li>
+              </ol>
+              <li>Item 3</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="title">Button
+          <a id="displayButton" href="javascript:toggleButton();">show</a>
+        </div>
+        <div id="toggleButton" style="display: none;">
+          <a class="button" href="#">Anchor Button</a>
+          <button>Button Element</button>
+          <input type="submit" value="Submit Input">
+          <input type="button" value="Button Input">
+        </div>
+
+        <div class="title">Form
+          <a id="displayForm" href="javascript:toggleForm();">show</a>
+        </div>
+        <div id="toggleForm" style="display: none;">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Type your email">
+          <br />
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Type your name">
+          <br />
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Type your password">
+          <br />
+          <label for="search">Search</label>
+          <input type="search" id="search" placeholder="Search...">
+          <br />
+          <label for="select">Choose from select</label>
+          <select id="select">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+          </select>
+          <br />
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Type your message..."></textarea>
+          <br />
+          <label>
+            <input type="checkbox">
+            <span>Send a copy to yourself</span>
+          </label>
+          <br />
+          <label>
+            <input type="radio">
+            <span>Send a copy to yourself</span>
+          </label>
+        </div>
+
+        <div class="title">Table
+          <a id="displayTable" href="javascript:toggleTable();">show</a>
+        </div>
+        <div id="toggleTable" style="display: none;">
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Cagdas Yonder</td>
+                <td>22</td>
+                <td>Male</td>
+                <td>Toronto</td>
+              </tr>
+              <tr>
+                <td>Kemal Ataturk</td>
+                <td>193∞</td>
+                <td>Male</td>
+                <td>Turkey</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="title">Code, Pre, Kbd
+          <a id="displayCode" href="javascript:toggleCode();">show</a>
+        </div>
+        <div id="toggleCode" style="display: none;">
+          <p>
+            <strong>Keyboard input:</strong>
+            <kbd>Cmd</kbd>
+          </p>
+          <p>
+            <strong>Sample output:</strong>
+            sdfsdf<code>This is sample output from a computer program.</code>asdfsdaf
+          </p>
+          <strong>Pre-formatted text:</strong>
+          <pre>P R E F O R M A T T E D T E X T
+! " # $ % &amp; ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~</pre>
+        </div>
+
+        <div class="title">Misc (blockquote, mark, cite, hr)
+          <a id="displayMisc" href="javascript:toggleMisc();">show</a>
+        </div>
+        <div id="toggleMisc" style="display: none;">
+          <blockquote>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel felis ultrices, pretium mi sit amet, viverra lectus. Interdum
+              et malesuada <mark>fames ac ante ipsum primis</mark> in faucibus.
+              In ultrices varius nisi ut faucibus.
+            </p>
+            <p>It is typically distinguished visually using indentation and a
+              different typeface or smaller size quotation. It may or may not
+              include a citation, usually placed at the bottom.
+            </p>
+            <cite><a href="#">Cagdas Yonder</a></cite>
+          </blockquote>
+          <hr />
+        </div>
+      </div><!-- wrapper -->
+    </body>
+</html>
