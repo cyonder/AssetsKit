@@ -1,21 +1,25 @@
+// -- List of classes that are in use by Assets Kit ------------------------ //
+// left, right, l-left, r-right, c-text, h-text, cf, ell, show, hide, button
+//
+
 // -------------------------------------------------------------------------- //
 // -- Cagdas Yonder Assets Kit ---------------------------------------------- //
 // -- Version: 1.0.0 -------------------------------------------------------- //
 // -------------------------------------------------------------------------- //
 
 // -- Base
-@import "normalize";
-@import "variables";
-@import "helpers";
-@import "typography";
-@import "standardize";
-@import "elements";
+@import "base/normalize";
+@import "base/variables";
+@import "base/standardize";
+@import "base/elements";
 
-// -- IcoMoon
-@import "icomoon";
+// -- Tools
+@import "tools/helpers";
+@import "tools/typography";
 
-// -- Glyphicons
-@import "glyphicons";
-@import "glyphicons-filetypes";
-@import "glyphicons-halflings";
-@import "glyphicons-social";
+@import "tools/icomoon";
+
+@import "tools/glyphicons";
+@import "tools/glyphicons-filetypes";
+@import "tools/glyphicons-halflings";
+@import "tools/glyphicons-social";
